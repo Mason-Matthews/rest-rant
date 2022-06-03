@@ -7,6 +7,10 @@ function home() {
     <Def>
         <main>
             <h1>Home</h1>
+            <div>
+                <img src="./images/free-stock-food-photography-websites.jpg" alt= "food"/>
+            </div>
+            
             <a href="/places">
             <button className="btn-primary">Places Page</button>
 </a>
