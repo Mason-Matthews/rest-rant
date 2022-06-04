@@ -25,7 +25,7 @@ function index (data) {
                     {placesFormatted}
                 </div>
             </main>
-            <div className='footer'>Author: Ryan Rasmussen</div>
+            <div className='footer'>Author: Mason Matthews</div>
         </Def>
     )
   }
