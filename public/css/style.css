@@ -1,49 +1,39 @@
 h1 {
-    text-align: center;
-    color: cornflowerblue;
-  }
+  text-align: center;
+  color: cornflowerblue;
+}
 nav {
-    background-color: cornflowerblue;
-    padding: 10px;
-    text-align: center;
+  text-align: center;
+  background-color: cornflowerblue;
+  padding: 10px;
 }
 
 nav ul {
-    list-style-type: none;
-    text-align: center;
-    
+  list-style-type: none;
+  margin: 0;
 }
 
 nav li {
-    display: inline;
-    margin-right: 50px;
-    margin-left: 50px;
+  display: inline;
+  margin-right: 25px;
 }
 
 nav a {
-    color: white;
-    font-size: 1.5em;
-    
+  color: white;
+  font-size: 1.5em;
 }
 
 nav a:hover {
-    color: pink;
-    text-decoration: none;
+  color: pink;
+  text-decoration: none;
 }
 body {
-  background-color: lightblue;
-  text-align: center;
+background-color: lightblue;
+text-align: center;
 }
 
 main {
-  margin-right: 20px;
-  margin-left: 20px;
-  background-color: white;
+margin-right: 20px;
+margin-left: 20px;
+background-color: white;
 }
-img{
-  width: 500px;
-  height: 400px;
-}
-
-
-  

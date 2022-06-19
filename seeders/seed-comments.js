@@ -12,13 +12,11 @@ async function seed() {
         stars: 5.0,
         content: 'Wow, simply amazing! Highly recommended!'
     })
-
+    
     // Add that comment to the place's comment array.
     place.comments.push(comment.id)
-
-    //save the place now that it has comment
-    await place.save()
     
+    console.log( await place.save())
     // Exit the program
     process.exit()
 }
